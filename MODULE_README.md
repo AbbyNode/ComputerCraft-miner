@@ -283,9 +283,9 @@ if liquid_handler.use_lava_for_fuel() then
 end
 ```
 
-## Integration Example
+## Main Entrypoint
 
-See `example_integration.lua` for a complete example of how to use all modules together.
+Run `miner.lua` to start the miner with all modules integrated. This is the main entrypoint that combines all features into a complete mining system.
 
 ## Parallel Operations
 

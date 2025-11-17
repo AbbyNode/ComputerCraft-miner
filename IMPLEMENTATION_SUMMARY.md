@@ -122,10 +122,10 @@ Complete usage guide including:
 - Profile customization
 - Best practices
 
-### example_integration.lua ✓
+### miner.lua ✓
 **Lines**: 308
 
-Working example demonstrating:
+Main entrypoint demonstrating:
 - Module initialization
 - Profile selection
 - Plan creation
@@ -163,7 +163,7 @@ Detailed plan covering:
 - logger.lua: 322 lines
 - fuel_safety.lua: 129 lines
 - liquid_handler.lua: 196 lines
-- example_integration.lua: 308 lines
+- miner.lua: 308 lines
 
 ## Key Design Decisions
 
@@ -240,7 +240,7 @@ To integrate with existing `Miner.lua`:
 ## Testing Recommendations
 
 1. **Unit Testing**: Test each module independently
-2. **Integration Testing**: Run example_integration.lua
+2. **Integration Testing**: Run miner.lua
 3. **Profile Testing**: Test each profile in different scenarios
 4. **Parallel Testing**: Verify no race conditions with wireless
 5. **Resume Testing**: Test checkpoint and resume functionality
